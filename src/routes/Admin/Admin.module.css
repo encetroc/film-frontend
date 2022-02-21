@@ -1,0 +1,22 @@
+.panel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 2px solid gray;
+}
+
+.panel__content {
+  display: grid;
+  grid-template-rows: min-content 430px min-content;
+  border-right: 2px solid gray;
+}
+
+.panel__content:last-child {
+  border: none;
+}
+
+.panel__title {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+  border-bottom: 1px solid gray;
+}

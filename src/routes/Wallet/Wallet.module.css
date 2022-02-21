@@ -1,0 +1,38 @@
+.wallet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.wallet__card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  min-height: 200px;
+  width: 500px;
+}
+
+.wallet__total {
+  padding: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.wallet__amount {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.backBtn {
+  width: 48px;
+  height: 48px;
+  background-color: unset;
+  border: 1px solid gray;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  background-color: aliceblue;
+}
